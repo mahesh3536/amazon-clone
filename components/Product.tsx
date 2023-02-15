@@ -49,7 +49,7 @@ export default function Product({id,title,price,description,category,image}:any)
         </div>
         <p className='text-xs my-2 line-clamp-2'>{description}</p>
         <div className='mb-5'>
-          {price}
+          ${price}
         </div>
         {
           isPrime && (
